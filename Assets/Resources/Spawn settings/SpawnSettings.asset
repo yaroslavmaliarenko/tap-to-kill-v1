@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbc143caf9c9f74e9880760db9dea07, type: 3}
+  m_Name: SpawnSettings
+  m_EditorClassIdentifier: 
+  chanceSettings:
+  - gameItemPrefab: {fileID: 5410843415104318853, guid: 879c0b268c0fa1c4c8c6ac8139fbd625,
+      type: 3}
+    minChanceValue: 0
+    maxChanceValue: 65
+  - gameItemPrefab: {fileID: 5069618872020846214, guid: 2e6d9fd3d9fc634409f87bcbb23613c5,
+      type: 3}
+    minChanceValue: 65
+    maxChanceValue: 80
+  - gameItemPrefab: {fileID: 7997520940519480629, guid: ee5186504e893c742a0f069fb2619c4f,
+      type: 3}
+    minChanceValue: 80
+    maxChanceValue: 97
+  - gameItemPrefab: {fileID: 1328882323050127454, guid: b43e2128fb9cdca4293abc7c76a366dc,
+      type: 3}
+    minChanceValue: 97
+    maxChanceValue: 99.9
+  spawnIntervalMin: 0.75
+  spawnIntervalMax: 1.5
+  spawnAmountMin: 1
+  spawnAmountMax: 3
